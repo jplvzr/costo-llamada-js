@@ -3,7 +3,7 @@ var duracionDeLlamada = prompt("Ingresa duración de la llamada");
 var costoPorMinuto= prompt("Ingresa costo por minuto");
    	costoPorMinuto = parseFloat(costoPorMinuto);
 var costoDeLlamada = duracionDeLlamada*costoPorMinuto;
-document.write("Su costo total de su llamada es:");
+document.write("El costo total de su llamada es:");
 document.write(costoDeLlamada);
 
 /*
